@@ -42,7 +42,10 @@
 	table {
 		border-collapse: collapse;
 		border-spacing: 0; }
-
+	td,th {	
+		border: 1px solid #ddd;
+		padding: 3px 10px;
+	}
 
 /* #Basic Styles
 ================================================== */
@@ -193,6 +196,7 @@
 	ol ol li, ol ul li {}
 	li { line-height: 18px; }
 	ol li { line-height: 24px; }
+	ul li { line-height: 24px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 
